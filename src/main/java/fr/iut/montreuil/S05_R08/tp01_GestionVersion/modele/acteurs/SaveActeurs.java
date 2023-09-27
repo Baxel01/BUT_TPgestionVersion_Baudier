@@ -39,7 +39,8 @@ public class SaveActeurs {
 
     public void genererSaveZone0(){
         ObservableList<Acteur> save = FXCollections.observableArrayList();
-        save.add(new Pnj(11*16, 2*16, "spectre"));
+        save.add(new Pnj(16*8,2*16,"panneau"));
+        save.add(new Pnj(16*11,2*16, "spectre"));
         savesListesActeurs.put(0, save);
     }
 

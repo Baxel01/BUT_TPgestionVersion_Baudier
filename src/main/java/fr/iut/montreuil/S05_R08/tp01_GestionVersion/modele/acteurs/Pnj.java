@@ -71,15 +71,8 @@ public class Pnj extends Acteur {
                 lines.add("Maître m'a parlé de vous, vous êtes à la recherche de réponses ?");
                 break;
             case "spectre":
-            	lines.add("Je pense que si on respect la qualite du dev, comme nos étudiants de 1ere année de DUT de 2021, on peut produire de très beaux projets, comme celui ci !");
-            	lines.add("Je pense que si on respect la qualite du dev, comme nos étudiants de 1ere année de DUT de 2021, on peut produire de très beaux projets, comme celui ci !");
-                lines.add("Vous savez...ce jeu réalisé en 2 mois est très bien fait. Par exemple j ai plusieurs répliques, vous devriez insister un peu...");
-                lines.add("Vous savez...ce jeu réalisé en 2 mois est très bien fait. Par exemple j ai plusieurs répliques, vous devriez insister un peu...");
-                lines.add("Oh non ! Ce jeu qui semble si bien, a été corrompu par un professeur aigri, il dit que vous ne lisiez pas ses mails l'année passée. Vous devez corriger le code mais seulement apres avoir fait le TP correctement et tout push sur git...");
-                lines.add("Oh non ! Ce jeu qui semble si bien, a été corrompu par un professeur aigri, il dit que vous ne lisiez pas ses mails l'année passée. Vous devez corriger le code mais seulement apres avoir fait le TP correctement et tout push sur git...");
-                lines.add("Concorde....con..corde....3.94 ! pourquoi ! 3.94 !!!!");
-                lines.add("Bon aller maintenant faut se mettre à faire le TP si vous voulez une bonne note, on a des évolutions à envoyer en prod !");
-                lines.add("Bon aller maintenant faut se mettre à faire le TP si vous voulez une bonne note, on a des évolutions à envoyer en prod !");
+            	lines.add("Pour avancer dans le jeu, faites 5000 pas ou regardez une pub sur le panneau à côté !!");
+                lines.add("AAAAH JE NE SENS PLUS MES JAMBES !!!!! Oh. Je suis un fantôme, c'est vrai.");
                 break;
             case "vieux":
                 lines.add("Mon trésor? vous le cherchez ?! Je l'ai laissé quelque part...");
@@ -126,15 +119,16 @@ public class Pnj extends Acteur {
                 lines.add("mon ami est à l'interieur! Yahoo! ");
                 lines.add("Il a oublié son chapeau! Ya! ");
                 break;
-            case "panneau":
-                lines.add("Trésor très précieux, ne pas toucher");
-                lines.add("Dur dur la vie de panneau...");
-                lines.add("Le 'Une pièce'... Il existe!");
-                break;
             case "épouvantail":
                 lines.add("*Vous frappez l'épouvantail*\nPourquoi faites vous cela ?");
                 lines.add("*Vous donnez une pièce à l'épouvantail*\nIl vous l'a rend de suite");
                 lines.add("*Vous câlinez l'épouvantail*\nIl rougit.");
+                break;
+            case "panneau":
+                lines.add("#AD Mais si c'est possible avec la carte Kiwi !\n" + //
+                        "L'enfant de moins 16 ans\n" + //
+                        "Et ceux qui l'accompagnent jusqu'à 4 personnes\n" + //
+                        "Payent tous moitié prix ");
                 break;
             default:
                 break;
